@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from .models import Driver, Truck, Company
-from django.contrib.gis.geos import Point  #> >>> pnt = Point(5, 23)
 
 class DriverSerializer(serializers.ModelSerializer):
     class Meta:

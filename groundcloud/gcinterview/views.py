@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.core.serializers import serialize
 from django.http import HttpResponse, JsonResponse
-from django.forms.models import model_to_dict
 from django.contrib.gis.db.models.functions import AsGeoJSON
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework import permissions
